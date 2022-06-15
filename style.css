@@ -10,10 +10,11 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: #464646;
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -88,6 +89,19 @@ body {
     margin-top: 1rem;
 }
 
+.instagram-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.text-footer {
+    color: rgb(146, 137, 137);
+}
+
 .not-account {
     color: rgb(160, 160, 160);
 }
@@ -157,3 +171,4 @@ body {
         border: 1px solid transparent;
     }
 }
+
